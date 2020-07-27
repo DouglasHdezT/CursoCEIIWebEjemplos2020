@@ -1,0 +1,17 @@
+<Person name="Douglas" lastname="Hernandez">
+	<Body>
+		<Head/>
+		<Torso/>
+		<Arm position="left"/>
+		<Arm position="right"/>
+		<Leg position="left"/>
+		<Leg position="right"/>
+	</Body>
+	<Hobbies>
+		...
+	</Hobbies>
+</Person>
+
+<etiqueta attr="value">
+	Contenido
+</etiqueta>
