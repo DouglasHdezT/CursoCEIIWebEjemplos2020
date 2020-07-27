@@ -1,7 +1,7 @@
 {
-	"editor.fontSize": 20,
+	"editor.fontSize": 28,
 	"editor.fontLigatures": false,
 	"editor.fontWeight": "500",
-	"workbench.colorTheme": "Horla",
+	"workbench.colorTheme": "Community Material Theme",
 	"window.zoomLevel": 1,
 }
