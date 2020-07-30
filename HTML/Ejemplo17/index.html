@@ -3,29 +3,51 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Tipos de input</title>
+	<title>Tipos de inputs</title>
 </head>
 <body>
-	<form action="index.html" method="get">
-		<input type="text">
-		<br>
-		<input type="password">
-		<br>
-		<input type="date">
-		<br>
-		<input type="email">
-		<br>
-		<input type="datetime-local">
-		<br>
-		<input type="file">
-		<br>
-		<input type="range" min="10" max="20">
-		<br>
-		<input type="number" min="0" max="25">
-		<br>
-		<input type="color">
-		<br>
-		<textarea cols="30" rows="10"></textarea>
+	<form action="index.html" method="GET">
+		<fieldset>
+			<legend>Login</legend>
+
+			<input type="text" name="username" placeholder="e.g. DouglasHdezT">
+			<br>
+			<input type="password">
+			<br>
+			<input type="email">
+		</fieldset>
+		
+		<fieldset>
+			<legend> Fecha </legend>
+
+			<input type="date" name="fecha" value="2015-12-10">
+			<br>
+			<input type="datetime-local">
+		</fieldset>
+		
+		<fieldset>
+			<legend> Misc. </legend>
+
+			<input type="file">
+			<br>
+			<input type="color">
+		</fieldset>
+
+		<fieldset>
+			<legend> Numeros </legend>
+
+			<input type="range" min = "10" max="20" name="range">
+			<br>
+			<input type="number" min="0" max="100">
+		</fieldset>
+		
+		<fieldset>
+			<legend> Comentarios </legend>
+			<textarea cols="40" rows="10" placeholder="Mucho texto"></textarea>
+		</fieldset>
+		
+		<input type="submit" value="Enviar">
+		<input type="button" value="Registar">
 	</form>
 </body>
 </html>
