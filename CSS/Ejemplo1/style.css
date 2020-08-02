@@ -1,10 +1,11 @@
-h1{
+h1 {
 	padding: 16px;
 
-	background: crimson;
+	background: crimson;	
 
 	color: white;
 	font-size: 36px;
+	font-weight: 300;
 	letter-spacing: -2px;
 
 	border-radius: 15px;
