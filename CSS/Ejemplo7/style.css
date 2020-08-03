@@ -1,9 +1,9 @@
-#adyacentes> h1 + p{
+#adyacentes > h1 + p{
 	padding: 16px;
 	border: 1px solid black;
 }
 
-#general > h1 ~ p{
+#general > h1 ~ .parrafo, #importante{
 	padding: 16px;
-	border: 1px solid black;
+	border: 1px solid crimson;
 }

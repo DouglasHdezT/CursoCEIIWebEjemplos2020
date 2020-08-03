@@ -1,0 +1,56 @@
+html{
+	font-size: 36px;
+}
+
+#primero{
+	font-size: 70px;
+}
+
+#primero h1{
+	font-size: 1rem; /* 1rem = 36px */
+}
+
+#primero h2{
+	font-size: 1em; /* 1em = 70px */
+}
+
+#segundo{
+	font-size: 20px;
+}
+
+#segundo h1{
+	font-size: 1rem; /* 1rem = 36px */
+}
+
+#segundo h2{
+	font-size: 1em; /* 1em = 20px */
+}
+
+p{
+	width: 20ch;
+	background: crimson;
+	color: white;
+}
+
+article {
+	height: 200px;
+	margin: 8px 0;
+
+	background: deeppink;
+}
+
+.col-20{
+	width: 20%;
+}
+
+.col-50{
+	width: 50%;
+}
+
+.col-100{
+	width: 100%;
+}
+
+body{
+	margin: 0;
+}
