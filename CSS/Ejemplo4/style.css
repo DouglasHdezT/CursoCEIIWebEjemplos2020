@@ -1,0 +1,13 @@
+body{
+	margin: 0;
+}
+
+div{
+	background: firebrick;
+	width: 30vw;
+	height: 100vh;
+}
+
+#first{
+	background: deeppink;
+}

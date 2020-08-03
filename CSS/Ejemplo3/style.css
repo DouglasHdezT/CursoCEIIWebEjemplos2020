@@ -1,0 +1,48 @@
+html{
+	font-size: 36px; /* Root font size */
+}
+
+h1{
+	font-size: 1rem; /* 1rem = 36px */
+}
+
+h2{
+	font-size: 1em; /* 1em = 36px */
+}
+
+section{
+	font-size: 20px;
+}
+
+section h1 {
+	font-size: 1em; /* 1em = 20px */
+}
+
+section h2 {
+	font-size: 1rem; /*1rem = 36px*/
+}
+
+p{
+	width: 20ch;
+	background: crimson;
+	color: white;
+}
+
+article{
+	height: 200px;
+	margin: 8px 0;
+
+	background: deeppink;
+}
+
+.cont-20{
+	width: 20%;
+}
+
+.cont-50{
+	width: 50%;
+}
+
+.cont-100{
+	width: 100%;
+}
