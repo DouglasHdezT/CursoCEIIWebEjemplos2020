@@ -1,132 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+div#without{
+	box-sizing: content-box;
+	width: 200px;
+	height: 100px;
 
-body{
-	margin: 0;
+	background: crimson;
+
+	padding: 10px 20px;
+	margin: 10px ;
+	border: 10px deeppink solid;
 }
 
-h3{
-	font-size: 1.5em;
-	font-family: "Montserrat", sans-serif;
-}
-
-p{
-	font-family: "Roboto", sans-serif;
-	font-weight: 300;
-	text-align: justify;
-}
-
-header{
-	width: 100%;
-	height: 100vh;
-	margin: 0;
-	padding: 0;
-
-	background-image: url("./img/4058371.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-header>div{
+div#with{
 	box-sizing: border-box;
-	width: 100%;
-	height: 100vh;
-	padding: 16px;
+	width: 200px;
+	height: 100px;
 
-	background-color: #00000088;
-}
+	background: deeppink;
 
-header h1 {
-	margin: 72px 0;
-
-	text-align: center;
-
-	font-family: "Montserrat", sans-serif;
-	color: white;
-	font-size: 5em;
-}
-
-nav#navbar{
-	box-sizing: border-box;
-	width: 100%;
-	height: auto;
-
-	padding:16px 16px 0 16px;
-
-	position: sticky;
-	position: -webkit-sticky;
-	top: 0;
-	left: 0;
-
-	background: #1A237E;
-}
-
-nav#navbar > h2 {
-	margin: 0 0 8px;
-
-	text-align: center;
-	color: white;
-	font-size: 2em;
-	font-family: "Montserrat", sans-serif;
-}
-
-nav#navbar > ul{
-	margin: 0;
-	padding: 0;	
-
-	list-style: none;
-	text-align: center;
-}
-
-nav#navbar li {
-	display: inline-block;
-}
-
-nav#navbar li>a{
-	display: inline-block;
-	padding: 16px 32px;
-
-	color: white;
-	text-decoration: none;
-	font-family: "Roboto", monospace;
-	font-weight: 300;
-
-	transition: ease-in all 250ms;
-}
-
-nav#navbar li>a:hover{
-	text-decoration: underline white;
-	background: #303F9F;
-	border-radius: 15px 15px 0 0;
-}
-
-main{
-	margin: 64px 15%;
-}
-
-main>section{
-	border-bottom: 1px #aaa solid;
-}
-
-main>section:last-child{
-	border-bottom: 0;
-}
-
-main>section>p:first-of-type::first-letter{
-	font-size: 2em;
-}
-
-footer{
-	box-sizing: border-box;
-	width: 100%;
-	padding: 32px ;
-
-	overflow: hidden;
-
-	background: #eee;
-}
-
-footer>p{
-	text-align: center;
-	color: #999;
+	padding: 10px 20px;
+	border: 10px crimson solid;
 }
