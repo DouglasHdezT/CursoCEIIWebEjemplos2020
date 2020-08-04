@@ -1,8 +1,12 @@
 .custom-button{
 	padding: 8px 16px;
 	background: transparent;
+
 	color: darkred;
+
 	border: 1px darkred solid;
+	transition: 250ms ease-in-out all;
+
 }
 
 .custom-button:hover{
@@ -11,8 +15,8 @@
 }
 
 section > article {
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 
 	margin: 16px 0;
 
@@ -27,17 +31,17 @@ section > article {
 	background: springgreen;
 }
 
-#nth > article:nth-child(3n){
+#nth > article:nth-child(2n){
 	background: royalblue;
 }
 
-#nth > article:nth-child(2n){
+#nth > article:nth-child(3n){
 	background: sienna;
 }
 
 input{
-	width: 50%;
 	display: block;
+	width: 50%;
 	margin: 0 auto;
 	padding: 16px;
 

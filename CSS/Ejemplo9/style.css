@@ -1,7 +1,11 @@
 body{
 	margin: 0;
+	overflow-x: hidden;
+
 }
+
 section{
+	margin: 0;
 	width: 100vw;
 	height: 100vh;
 
@@ -12,6 +16,10 @@ section:nth-child(2n){
 	background: #eee;
 }
 
+section:nth-child(2n) > div{
+	background: crimson;
+}
+
 div{
 	width: 100px;
 	height: 100px;
@@ -19,34 +27,37 @@ div{
 	margin: 4px 0;
 
 	background: deeppink;
-}
-
-section:nth-child(2n)>div{
-	background: crimson;
+	border: 1px solid black ;
 }
 
 #relativo{
 	position: relative;
+
+	top: -75px;
 	left: 250px;
 }
 
 #absoluto{
 	position: absolute;
 	left: 150px;
+	top: 25px;
 }
 
 #pegajoso{
+	background: darkblue;
+
 	position: sticky;
 	position: -webkit-sticky;
 
-	top:0;
+	top: 25px;
 	left: 0;
-
-	background: darkblue;
 }
 
 #fijo{
 	position: fixed;
-	top: 0;
+
+	margin: 0;
+
+	top:0;
 	left: 0;
 }
