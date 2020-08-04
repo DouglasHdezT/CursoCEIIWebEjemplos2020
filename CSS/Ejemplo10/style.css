@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+}
+
+#block > h1{
+	display: block;
+
+	width: 60vw;
+	height: 30vh;
+
+	margin: 16px 0;
+
+	border: 1px solid black;
+}
+
+#inline > h1{
+	display: inline;
+
+	margin: 16px 16px ;
+
+	border: 1px solid black;
+}
+
+#hidden{
+	visibility: hidden;
+}
+
+#none{
+	display: none;
+}
