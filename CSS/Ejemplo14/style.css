@@ -7,19 +7,37 @@ main{
 	width: 100%;
 	height: 100vh;
 
+	padding: 32px;
+
 	background: #eee;
 
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+
+	justify-content: center;
+	
+	align-items: stretch;
+	align-content: stretch;
+
+	flex-wrap: wrap;
 }
 
-main div{
-	width: 100px;
-	height: 100px;
-	margin: 16px ;
+main>div{
+	flex-grow: 1;
 
-	background: crimson;
-	
+	background: steelblue;
 	color: white;
 	font-size: 3em;
+}
+
+main>div:nth-child(2n){
+	background: deeppink;
+}
+
+main>div:nth-child(3n){
+	background: crimson;
+}
+
+main>div:nth-child(4n){
+	background: indigo;
 }
