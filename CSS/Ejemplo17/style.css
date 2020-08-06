@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 100vh;
+  background-image: url("./img/background.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header > button {
+  padding: 10px;
+  margin: 4px 8px;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+button#open {
+  background: indigo;
+}
+
+button#download {
+  background: slateblue;
+}
+
+button#faq {
+  background: deeppink;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+}
+
+main > h1 {
+  font-size: 4em;
+  background: #ffffff40;
+  padding: 8px 0;
+}
+
+.line {
+  height: 4px;
+  width: 40%;
+  margin: 1em;
+  border-radius: 8px;
+  background: white;
+}
+
+.icons {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icons > div {
+  width: 45px;
+  height: 45px;
+  margin: 4px;
+  border-radius: 50%;
+  background: teal;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer > a {
+  padding: 4px;
+  border-radius: 2px;
+  background: #00000070;
+  color: white;
+}
