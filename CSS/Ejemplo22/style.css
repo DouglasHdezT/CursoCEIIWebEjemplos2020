@@ -11,7 +11,7 @@ body{
 	grid-template-areas: 	"head head"
                        		"aside  main"
 							"aside  foot";
-	grid-template-rows: 10vh 1fr 10vh;
+	grid-template-rows: 10vh 1fr 7vh;
 	grid-template-columns: 20% 1fr;
 }
 
@@ -33,7 +33,6 @@ header{
 
 main{
 	grid-area: main;
-	
 	background: #eee;
 }
 

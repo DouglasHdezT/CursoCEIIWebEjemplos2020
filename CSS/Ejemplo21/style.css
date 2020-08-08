@@ -42,10 +42,19 @@ body{
 
 	top: 0;
 	left: 0;
+
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+
+.list dt:nth-of-type(2n){
+	background: steelblue;
 }
 
 .list dd{
 	width: 100%;
 	padding: 16px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
 }
 
