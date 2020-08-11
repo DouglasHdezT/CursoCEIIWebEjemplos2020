@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+}
+.cover,
+.cover-2,
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover {
+  background-image: url("./img/Summer_39.jpg");
+}
+
+.cover-2 {
+  background-image: url("./img/background.jpg");
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 4em;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
