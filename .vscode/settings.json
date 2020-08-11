@@ -4,4 +4,5 @@
 	"editor.fontWeight": "500",
 	"workbench.colorTheme": "Community Material Theme",
 	"window.zoomLevel": 1,
+	"liveServer.settings.port": 5501,
 }

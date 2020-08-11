@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 200;
+}
+
+.box {
+  width: 400px;
+  height: 200px;
+  margin: 0.3em;
+  background-color: rgba(0, 128, 128, 0.411);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:nth-child(2n) {
+  background-color: deeppink;
+}
