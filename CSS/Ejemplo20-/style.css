@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+}
+
+.image-container {
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.image-container > img {
+  width: 100%;
+  height: 100%;
+}
+
+.img-2 {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .img-1 {
+    display: none;
+  }
+  .img-2 {
+    display: block;
+  }
+}
